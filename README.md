@@ -11,7 +11,7 @@ pinned: false
 # Low-Light Image Restoration (Problem P1) – Team APex decs
 
 **Live app:** (add link after deployment)
-**Members:** Anish Gowda P (1RUA24CSE0049), Anchit Tushar Bhatt (1RUA24CSE0049), Amith S (1RUA24CSE0038), Chethan Chouhan (1RUA24CSE0104)
+**Members:** Anish Gowda P (1RUA24CSE0053), Anchit Tushar Bhatt (1RUA24CSE0049), Amith S (1RUA24CSE0038), Chethan Chouhan (1RUA24CSE0104)
 
 **Report:** [Hackathon_Solution_Report.md](Hackathon_Solution_Report.md)
 

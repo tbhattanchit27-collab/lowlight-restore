@@ -5,8 +5,8 @@
 | **Problem ID** | `P1` |
 | **Problem Title** | `Robust Low-Light Image Restoration and Enhancement` |
 | **Team Name** | `APex decs` |
-| **Team Members** | `Anish Gowda P (USN: 1RUA24CSE0049), Anchit Tushar Bhatt (USN: 1RUA24CSE0049), Amith S (USN: 1RUA24CSE0038), Chethan Chouhan (USN: 1RUA24CSE0104)` |
-| **GitHub Repository** |   |
+| **Team Members** | `Anish Gowda P (USN: 1RUA24CSE0053), Anchit Tushar Bhatt (USN: 1RUA24CSE0049), Amith S (USN: 1RUA24CSE0038), Chethan Chouhan (USN: 1RUA24CSE0104)` |
+| **GitHub Repository** | https://github.com/tbhattanchit27-collab/lowlight-restore |
 | **Live Demo / Deployment** |   |
 
 ---
@@ -222,7 +222,7 @@ sh scripts/run_official.sh LOL-v2 LOLdataset
 ---
 
 ### Student Submission Checklist
-- [ ] Working GitHub repository link included with an updated `README.md`.
+- [x] Working GitHub repository link included with an updated `README.md`.
 - [x] No raw code pasted into this report.
 - [x] All table metrics match test runs reproducible via the repository.
-- [ ] All team member details accurately recorded.
+- [x] All team member details accurately recorded.
