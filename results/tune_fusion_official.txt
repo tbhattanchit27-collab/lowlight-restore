@@ -1,0 +1,12 @@
+validation set (official, 158 pairs)
+classical only                         PSNR  13.49  SSIM 0.4807
+hybrid, DL branch only (no fusion)     PSNR  14.06  SSIM 0.4731
+hybrid, fixed 50/50 average            PSNR  14.60  SSIM 0.5021
+hybrid, weight from T, t_high=0.2      PSNR  14.61  SSIM 0.5139
+hybrid, weight from T, t_high=0.3      PSNR  14.45  SSIM 0.5124
+hybrid, weight from T, t_high=0.4      PSNR  14.32  SSIM 0.5106
+hybrid, weight from T, t_high=0.6      PSNR  14.11  SSIM 0.5074
+hybrid t_high=0.2, CLAHE scale 0.0     PSNR  14.44  SSIM 0.5295
+hybrid t_high=0.2, CLAHE scale 0.35    PSNR  14.72  SSIM 0.5286
+hybrid t_high=0.2, CLAHE scale 0.7     PSNR  14.61  SSIM 0.5139
+chosen: t_high=0.2, clahe_scale=0.35

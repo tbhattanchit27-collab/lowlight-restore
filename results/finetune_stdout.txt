@@ -1,0 +1,43 @@
+144 paired + 44 unpaired training images
+epoch 0 (pretrained)  val PSNR 16.28
+epoch  1  loss 3.4870  val PSNR 17.01  (13s)  <- saved
+epoch  2  loss 3.1229  val PSNR 17.06  (13s)  <- saved
+epoch  3  loss 3.2032  val PSNR 17.25  (13s)  <- saved
+epoch  4  loss 3.1790  val PSNR 17.15  (13s)
+epoch  5  loss 3.1881  val PSNR 16.38  (14s)
+epoch  6  loss 3.2969  val PSNR 16.94  (13s)
+epoch  7  loss 3.2278  val PSNR 17.11  (13s)
+epoch  8  loss 3.1372  val PSNR 17.35  (13s)  <- saved
+epoch  9  loss 3.0838  val PSNR 17.35  (15s)  <- saved
+epoch 10  loss 3.1558  val PSNR 17.24  (23s)
+epoch 11  loss 3.1371  val PSNR 17.52  (13s)  <- saved
+epoch 12  loss 3.2692  val PSNR 17.43  (13s)
+epoch 13  loss 3.2314  val PSNR 16.97  (13s)
+epoch 14  loss 3.1503  val PSNR 17.15  (12s)
+epoch 15  loss 3.0046  val PSNR 15.97  (13s)
+epoch 16  loss 3.1729  val PSNR 16.63  (13s)
+epoch 17  loss 3.3562  val PSNR 16.91  (13s)
+epoch 18  loss 3.3957  val PSNR 17.08  (13s)
+epoch 19  loss 3.2220  val PSNR 17.03  (13s)
+epoch 20  loss 3.2845  val PSNR 17.49  (13s)
+epoch 21  loss 3.1045  val PSNR 17.24  (12s)
+epoch 22  loss 3.0997  val PSNR 17.51  (13s)
+epoch 23  loss 3.2027  val PSNR 17.63  (13s)  <- saved
+epoch 24  loss 3.1217  val PSNR 17.08  (13s)
+epoch 25  loss 3.2187  val PSNR 16.70  (13s)
+epoch 26  loss 3.2283  val PSNR 17.53  (13s)
+epoch 27  loss 3.2266  val PSNR 17.38  (13s)
+epoch 28  loss 3.0751  val PSNR 17.34  (12s)
+epoch 29  loss 3.0906  val PSNR 17.46  (13s)
+epoch 30  loss 3.0728  val PSNR 17.39  (13s)
+epoch 31  loss 3.1279  val PSNR 17.58  (13s)
+epoch 32  loss 3.0862  val PSNR 17.35  (13s)
+epoch 33  loss 3.0971  val PSNR 17.43  (13s)
+epoch 34  loss 3.1472  val PSNR 17.60  (13s)
+epoch 35  loss 3.1648  val PSNR 17.68  (12s)  <- saved
+epoch 36  loss 2.9930  val PSNR 17.59  (13s)
+epoch 37  loss 2.9883  val PSNR 17.04  (13s)
+epoch 38  loss 3.1708  val PSNR 17.58  (13s)
+epoch 39  loss 3.1858  val PSNR 17.63  (13s)
+epoch 40  loss 3.0922  val PSNR 17.60  (13s)
+best val PSNR 17.68  (pretrained was 16.28)

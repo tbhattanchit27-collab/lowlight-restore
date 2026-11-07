@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+data/synth/
+data/LOL/
+results/images_*/
+.gradio/
+flagged/
+LOL-v2/
+LOLdataset/
+*.zip
+.DS_Store

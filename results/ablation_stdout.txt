@@ -1,0 +1,33 @@
+{'variant': 'hybrid full', 'PSNR': 17.65894818186465, 'SSIM': 0.5686915249578537, 'DeltaE': 12.684943498127044, 'EdgeCorr': 0.7627923760841445, 'OverExp': 5.079365079365079e-05, 'NIQE_real': 4.491201298117004}
+{'variant': '- adaptive params (fixed)', 'PSNR': 16.314236857269986, 'SSIM': 0.5060854004843841, 'DeltaE': 15.29839949759226, 'EdgeCorr': 0.7028525153068086, 'OverExp': 0.00926031746031746, 'NIQE_real': 4.532503339770154}
+{'variant': '- pre-gain', 'PSNR': 17.627475027442802, 'SSIM': 0.5822350094242702, 'DeltaE': 12.726372302524627, 'EdgeCorr': 0.7763706352729598, 'OverExp': 0.0002634920634920635, 'NIQE_real': 4.504279092002228}
+{'variant': '- fusion (DL branch only)', 'PSNR': 15.816236444818161, 'SSIM': 0.4883442569583181, 'DeltaE': 15.432074592227028, 'EdgeCorr': 0.6768402862166344, 'OverExp': 0.0, 'NIQE_real': 4.6973744601941485}
+{'variant': 'fusion = fixed 50/50 average', 'PSNR': 17.3273766425764, 'SSIM': 0.5431724465082562, 'DeltaE': 13.126581294195992, 'EdgeCorr': 0.7317937495392967, 'OverExp': 0.0, 'NIQE_real': 4.61526566049686}
+{'variant': '- denoise', 'PSNR': 15.290892672149685, 'SSIM': 0.35744080952708684, 'DeltaE': 19.74731671620929, 'EdgeCorr': 0.6092111772907768, 'OverExp': 3.174603174603174e-06, 'NIQE_real': 4.531479333032765}
+{'variant': '- CLAHE', 'PSNR': 17.53917927079924, 'SSIM': 0.5902708790131977, 'DeltaE': 13.247830803432162, 'EdgeCorr': 0.7804186506403369, 'OverExp': 0.0, 'NIQE_real': 4.6137200117322115}
+{'variant': '- colour correction', 'PSNR': 17.783952743439325, 'SSIM': 0.570513357955312, 'DeltaE': 12.432968306163001, 'EdgeCorr': 0.762963933928284, 'OverExp': 0.016873015873015873, 'NIQE_real': 4.462387030430535}
+/usr/local/lib/python3.13/site-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/usr/local/lib/python3.13/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+{'variant': '- fine-tuning (pretrained weights)', 'PSNR': 17.437172429564797, 'SSIM': 0.5759088404121853, 'DeltaE': 12.91870185307094, 'EdgeCorr': 0.7598942045098839, 'OverExp': 0.0, 'NIQE_real': 4.593475157285774}
+{'variant': 'classical full', 'PSNR': 17.08812198586954, 'SSIM': 0.5624493559201559, 'DeltaE': 13.136858156749181, 'EdgeCorr': 0.7585965197437954, 'OverExp': 0.0, 'NIQE_real': 4.5476154086125895}
+{'variant': 'classical - Retinex (global gamma)', 'PSNR': 16.091624093869324, 'SSIM': 0.5074635857627505, 'DeltaE': 15.015384303198921, 'EdgeCorr': 0.5661200442477344, 'OverExp': 0.0, 'NIQE_real': 4.461610508872493}
+{'variant': 'classical - adaptive params', 'PSNR': 15.593870259034123, 'SSIM': 0.4857263930496715, 'DeltaE': 15.899666021740625, 'EdgeCorr': 0.6894378637066884, 'OverExp': 0.001673015873015873, 'NIQE_real': 4.409492125894858}
+{'variant': 'classical - denoise', 'PSNR': 14.809811874686892, 'SSIM': 0.34055503085255623, 'DeltaE': 20.222185255989196, 'EdgeCorr': 0.5921999279402457, 'OverExp': 0.0, 'NIQE_real': 4.8197490286829}
+{'variant': 'classical - CLAHE', 'PSNR': 15.93376369152296, 'SSIM': 0.578320388046522, 'DeltaE': 15.02009940525842, 'EdgeCorr': 0.7868423307721056, 'OverExp': 0.0, 'NIQE_real': 4.729470763119057}
+                           variant    PSNR   SSIM  DeltaE  EdgeCorr  OverExp  NIQE_real
+                       hybrid full 17.6589 0.5687 12.6849    0.7628   0.0001     4.4912
+         - adaptive params (fixed) 16.3142 0.5061 15.2984    0.7029   0.0093     4.5325
+                        - pre-gain 17.6275 0.5822 12.7264    0.7764   0.0003     4.5043
+         - fusion (DL branch only) 15.8162 0.4883 15.4321    0.6768   0.0000     4.6974
+      fusion = fixed 50/50 average 17.3274 0.5432 13.1266    0.7318   0.0000     4.6153
+                         - denoise 15.2909 0.3574 19.7473    0.6092   0.0000     4.5315
+                           - CLAHE 17.5392 0.5903 13.2478    0.7804   0.0000     4.6137
+               - colour correction 17.7840 0.5705 12.4330    0.7630   0.0169     4.4624
+- fine-tuning (pretrained weights) 17.4372 0.5759 12.9187    0.7599   0.0000     4.5935
+                    classical full 17.0881 0.5624 13.1369    0.7586   0.0000     4.5476
+classical - Retinex (global gamma) 16.0916 0.5075 15.0154    0.5661   0.0000     4.4616
+       classical - adaptive params 15.5939 0.4857 15.8997    0.6894   0.0017     4.4095
+               classical - denoise 14.8098 0.3406 20.2222    0.5922   0.0000     4.8197
+                 classical - CLAHE 15.9338 0.5783 15.0201    0.7868   0.0000     4.7295

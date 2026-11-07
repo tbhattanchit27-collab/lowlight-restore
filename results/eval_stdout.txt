@@ -1,0 +1,43 @@
+/usr/local/lib/python3.13/site-packages/torchvision/models/_utils.py:207: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.13/site-packages/torchvision/models/_utils.py:222: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Downloading: "https://download.pytorch.org/models/alexnet-owt-7be5be79.pth" to /root/.cache/torch/hub/checkpoints/alexnet-owt-7be5be79.pth
+  paired 1/126
+  paired 21/126
+  paired 41/126
+  paired 61/126
+  paired 81/126
+  paired 101/126
+  paired 121/126
+                           PSNR    SSIM LPIPS   DeltaE  EdgeCorr   Noise  OverExp        ms
+method                                                                                     
+input (no enhancement)   8.8182  0.2405   NaN  33.3326    0.7476  0.0172   0.0000    1.6391
+classical               17.0881  0.5624   NaN  13.1369    0.7586  0.0309   0.0000   76.8107
+DL Zero-DCE pretrained  15.1583  0.3754   NaN  19.6239    0.6224  0.0682   0.0000  371.3990
+DL Zero-DCE fine-tuned  15.8953  0.3830   NaN  18.8100    0.6555  0.0740   0.0000  361.2123
+hybrid (ours)           17.6589  0.5687   NaN  12.6849    0.7628  0.0284   0.0001  448.8562
+                                     PSNR   SSIM
+condition  method                               
+dark       input (no enhancement)   9.012  0.259
+           classical               17.935  0.616
+           DL Zero-DCE pretrained  16.939  0.451
+           DL Zero-DCE fine-tuned  18.520  0.462
+           hybrid (ours)           19.075  0.628
+extreme    input (no enhancement)   7.912  0.133
+           classical               16.110  0.459
+           DL Zero-DCE pretrained  12.350  0.211
+           DL Zero-DCE fine-tuned  13.357  0.221
+           hybrid (ours)           17.095  0.465
+nonuniform input (no enhancement)   9.531  0.329
+           classical               17.219  0.612
+           DL Zero-DCE pretrained  16.185  0.465
+           DL Zero-DCE fine-tuned  15.809  0.466
+           hybrid (ours)           16.807  0.613
+                          NIQE  Brightness   Noise  OverExp        ms
+method                                                               
+input (no enhancement)  5.1119      0.1960  0.0039   1.5714    0.0021
+classical               4.5476      0.3696  0.0096   0.4727   97.6492
+DL Zero-DCE pretrained  4.7468      0.3807  0.0118   1.8642  237.3327
+DL Zero-DCE fine-tuned  4.4100      0.4219  0.0123   1.6167  228.9732
+hybrid (ours)           4.4912      0.4095  0.0091   0.0282  332.6308

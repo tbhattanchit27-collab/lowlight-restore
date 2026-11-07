@@ -1,0 +1,16 @@
+condition,method,PSNR,SSIM
+dark,input (no enhancement),9.012,0.259
+dark,classical,17.935,0.616
+dark,DL Zero-DCE pretrained,16.939,0.451
+dark,DL Zero-DCE fine-tuned,18.52,0.462
+dark,hybrid (ours),19.075,0.628
+extreme,input (no enhancement),7.912,0.133
+extreme,classical,16.11,0.459
+extreme,DL Zero-DCE pretrained,12.35,0.211
+extreme,DL Zero-DCE fine-tuned,13.357,0.221
+extreme,hybrid (ours),17.095,0.465
+nonuniform,input (no enhancement),9.531,0.329
+nonuniform,classical,17.219,0.612
+nonuniform,DL Zero-DCE pretrained,16.185,0.465
+nonuniform,DL Zero-DCE fine-tuned,15.809,0.466
+nonuniform,hybrid (ours),16.807,0.613

@@ -1,0 +1,8 @@
+validation set (data/synth/val, 60 pairs)
+classical only                         PSNR  16.67  SSIM 0.5962
+hybrid, DL branch only (no fusion)     PSNR  16.47  SSIM 0.5599
+hybrid, fixed 50/50 average            PSNR  17.24  SSIM 0.5963
+hybrid, weight from T, t_high=0.2      PSNR  17.52  SSIM 0.6073
+hybrid, weight from T, t_high=0.3      PSNR  17.48  SSIM 0.6138
+hybrid, weight from T, t_high=0.4      PSNR  17.41  SSIM 0.6156
+hybrid, weight from T, t_high=0.6      PSNR  17.26  SSIM 0.6155

@@ -1,0 +1,6 @@
+method,NIQE,Brightness,Noise,OverExp,ms
+input (no enhancement),5.1119,0.196,0.0039,1.5714,0.0021
+classical,4.5476,0.3696,0.0096,0.4727,97.6492
+DL Zero-DCE pretrained,4.7468,0.3807,0.0118,1.8642,237.3327
+DL Zero-DCE fine-tuned,4.41,0.4219,0.0123,1.6167,228.9732
+hybrid (ours),4.4912,0.4095,0.0091,0.0282,332.6308

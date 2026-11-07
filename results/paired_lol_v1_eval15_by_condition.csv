@@ -1,0 +1,6 @@
+condition,method,PSNR,SSIM
+lol_v1_eval15,input (no enhancement),7.773,0.191
+lol_v1_eval15,classical,16.373,0.656
+lol_v1_eval15,DL Zero-DCE pretrained,14.975,0.564
+lol_v1_eval15,DL Zero-DCE fine-tuned,16.791,0.519
+lol_v1_eval15,hybrid (ours),18.373,0.742

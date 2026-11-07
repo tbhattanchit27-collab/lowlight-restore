@@ -1,0 +1,6 @@
+condition,method,PSNR,SSIM
+lolv2_synthetic,input (no enhancement),10.9,0.407
+lolv2_synthetic,classical,15.512,0.671
+lolv2_synthetic,DL Zero-DCE pretrained,16.686,0.72
+lolv2_synthetic,DL Zero-DCE fine-tuned,16.98,0.724
+lolv2_synthetic,hybrid (ours),16.95,0.721
