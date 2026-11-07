@@ -1,7 +1,7 @@
 #!/bin/sh
 # Builds report/Project_Report_P1.docx and .pdf from the markdown docs.
 # Needs pandoc (and LibreOffice for the PDF). Edit the names below first.
-TEAM="Team APex decs: Anish Gowda P (1RUA24CSE0049), Anchit Tushar Bhatt (1RUA24CSE0049), Amith S (1RUA24CSE0038), Chethan Chouhan (1RUA24CSE0104)"
+TEAM="Team APex decs: Anish Gowda P (1RUA24CSE0053), Anchit Tushar Bhatt (1RUA24CSE0049), Amith S (1RUA24CSE0038), Chethan Chouhan (1RUA24CSE0104)"
 cd "$(dirname "$0")/.." && mkdir -p report
 {
   echo "% Robust Low-Light Image Restoration and Enhancement (P1)"

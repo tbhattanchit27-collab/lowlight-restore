@@ -1,6 +1,6 @@
 # Design Document – P1: Robust Low-Light Image Restoration and Enhancement
 
-Team: APex decs  |  Anish Gowda P (1RUA24CSE0049), Anchit Tushar Bhatt (1RUA24CSE0049), Amith S (1RUA24CSE0038), Chethan Chouhan (1RUA24CSE0104)  |  Hackathon: Computer Vision Hackathon 2026
+Team: APex decs  |  Anish Gowda P (1RUA24CSE0053), Anchit Tushar Bhatt (1RUA24CSE0049), Amith S (1RUA24CSE0038), Chethan Chouhan (1RUA24CSE0104)  |  Hackathon: Computer Vision Hackathon 2026
 
 ## 1. Problem
 
