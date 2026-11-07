@@ -192,7 +192,7 @@ CLAHE setting (0.35) scored best (14.72 dB, against 14.44 dB with CLAHE off), so
 ### Quickstart Commands
 ```bash
 # 1. Clone the repository and install dependencies
-git clone <your-github-repo-url>
+git clone https://github.com/tbhattanchit27-collab/lowlight-restore.git
 cd lowlight-restore
 pip install -r requirements.txt
 
